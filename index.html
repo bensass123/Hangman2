@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hangman</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Cinzel|Eagle+Lake|Walter+Turncoat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+
+    
+
+  </head>
+<body onload="drawSumo();">
+
+
+  <h1 class="title">SUMO HANG</h1>
+
+
+
+
+
+<div class="container">
+  <div class="panel panel-primary">
+    <div id ="panelId" class="panel-body"  style="min-height: 600px;">
+      
+
+      <div class="jumbotron jumboClass">
+        <div class="container2">
+          <h4 id ="word" class="word"></h4>         
+        </div>
+      </div>
+
+      <canvas class = "man" id="man" width="400" height="550">
+         Your browser does not support HTML5 canvas. Sorry Charlie.
+      </canvas>
+
+      <p id ="winnerStory" class = "winnerStory hiddenStory">You have saved King Sumo, the ruler of all Sumos. He rewards you with a bag of Sumo Gold and 40 lbs of rice.</p>
+  
+      <h2 class ="anyKey">Press any key to continue</h2>
+      
+      <h2 class ="guesses">Guesses left: <span id = "guesses"></span></h2>
+
+      <h4 class="wrongs">Wrong guesses: <span id = "wrongs"></span></h4>
+
+      <h4 id = "loser" class = "win">Bags of Sumo Gold: <span id = "wins">0</span></h2>
+
+      <h4 class = "win">Pounds of Rice: <span id = "ricelbs">0</span></h2>
+      <button type="button" class="btn btn-default reset">New Word</button>
+
+<!--       <div class="newword">
+        <h5>For new word:</h5><input type="button" style = "color:black;" value="Refresh Page" onClick="window.location.reload()">
+      </div> -->
+
+      
+      
+
+
+
+
+    </div>
+  </div>
+</div>
+
+  <script src="assets/js/hangman.js"></script>
+</body>
+</html>

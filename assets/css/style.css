@@ -1,0 +1,162 @@
+.container {
+	width: 800px;
+	/*height:900px;*/
+	/*background-image: url("../images/sumobg.jpg");*/
+}
+
+.panel {
+	background-size: auto, cover;
+	background: url("../images/sumobg.jpg");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+	
+}
+
+.word{
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+.jumboClass {
+	float: left;
+	width: 307px;
+	padding-right: 45px;
+	padding-left: 45px;
+	color: black;
+	position: relative;
+	top: 10px;
+	font-family: 'Arial', sans-serif;
+	
+}
+
+
+.win {
+    width: 200px;
+    text-align: center;
+    position: relative;
+    left: 43px;
+    top: 30px;
+}
+
+.anyKey {
+    color: red;
+    z-index: 50;
+}
+
+.reset {
+    position: relative;
+    top: 93px;
+}
+
+
+.guesses {
+    font-family: 'Takeout', sans-serif;
+    position: relative;
+    left: 43px;
+    width: 200px;
+    text-align: center;
+}
+
+.wrongs {
+    letter-spacing: 4px;
+    font-family: 'Takeout', sans-serif;
+    position: relative;
+    top: 4px;
+    left: 43px;
+    width: 200px;
+    text-align: center;
+}
+
+.newword{
+    position: relative;
+    top: 126px;
+    left: 43px;
+    width: 200px;
+    text-align: center;
+}
+
+.title{
+	font-family: 'Takeout', sans-serif;
+	position: relative;
+
+    text-align: center;
+    color: white;
+    background: crimson;
+    border-radius: 25px;
+    padding: 5px;
+    padding-top: 9px;
+}
+
+.container2{
+
+}
+
+.man {	
+	z-index: 2;
+    float: right;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 25px;
+    padding-left: 12px;
+    background: white;
+}
+
+
+.hiddenStory {
+    visibility: hidden;
+    height: 0;
+}
+
+.winnerStory{
+    color: red;
+    width: 300px;
+    position: relative;
+    left: 0px;
+    top: 85px;
+    padding-top: 49px;
+    padding-right: 48px;
+    z-index: 1;
+    /* float: right; */
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Takeout', sans-serif;
+    float: right;
+}
+
+#guesses, #wrongs, #ricelbs, #wins {
+	color: red;
+}
+
+.wins {
+	color: red;
+}
+
+body {
+	color: #ffff00;
+	background-image: url("../images/sumopattern.jpg");
+	font-family: 'Takeout', sans-serif;
+}
+
+
+@font-face {
+  font-family: "Takeout";
+  src: url("../css/Takeout.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: "Takeout";
+  src: url("../css/CHINESETAKEAWAY.ttf") format("truetype");
+}
+
+
+
+
+
+
+
+
+/*.deathPanel {
+	background-color: #494949;
+}*/
